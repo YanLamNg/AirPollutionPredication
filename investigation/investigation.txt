@@ -1,0 +1,23 @@
+Investigation:
+COMP 4190
+Artificial Intelligent
+Assignment 2
+
+Regression: Air Pollution Prediction
+
+1.
+                    TEMP       DEMP      PRES      RAIN       WD        WSPM      Multiple
+Training error     0.0093      0.0085    0.0089    0.0089     0.0087    0.0086	  153.39
+  
+Test error         0.0115      0.00998   0.0112    0.01207    0.01483   0.0089    29.127
+
+Error difference   0.0022      0.0015    0.0023    0.0031     0.00601   0.0003    124.26
+
+2.
+The result that has the smallest error on the testing data is WSPM
+
+3.
+Overfitting refers to a model that models the training data too well. Since we use a lot of data in this training, it is unlikely to have overfitting. We have a good training model for singe regression as there is no extremely low training error but a high testing error.
+
+An underfitting machine learning model will have poor performance on the training data and test data. In this case, our multiple regression is underfit. 
+

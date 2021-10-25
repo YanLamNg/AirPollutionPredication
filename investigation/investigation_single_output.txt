@@ -1,0 +1,164 @@
+start testing: TEMP
+2020-03-13 13:28:54.545156: I tensorflow/core/platform/cpu_feature_guard.cc:145] This TensorFlow binary is optimized with Intel(R) MKL-DNN to use the following CPU instructions in performance critical operations:  SSE4.1 SSE4.2 AVX AVX2 FMA
+To enable them in non-MKL-DNN operations, rebuild TensorFlow with the appropriate compiler flags.
+2020-03-13 13:28:54.545391: I tensorflow/core/common_runtime/process_util.cc:115] Creating new thread pool with default inter op setting: 4. Tune using inter_op_parallelism_threads for best performance.
+Epoch: 0050 cost= 0.057907771 W1= [0.60205704] W2= [-0.19360547] W3= [1.1131315] b= [-0.3630623]
+Epoch: 0100 cost= 0.038824815 W1= [0.5104483] W2= [-0.3135766] W3= [0.99786836] b= [-0.25466034]
+Epoch: 0150 cost= 0.027196778 W1= [0.44036174] W2= [-0.40672085] W3= [0.9092548] b= [-0.16745447]
+Epoch: 0200 cost= 0.020065550 W1= [0.38580573] W2= [-0.47970733] W3= [0.8395495] b= [-0.09923352]
+Epoch: 0250 cost= 0.015689343 W1= [0.3434266] W2= [-0.537093] W3= [0.78472334] b= [-0.04585253]
+Epoch: 0300 cost= 0.013011648 W1= [0.31053668] W2= [-0.5818678] W3= [0.7416038] b= [-0.00418275]
+Epoch: 0350 cost= 0.011371069 W1= [0.28507555] W2= [-0.616908] W3= [0.7076446] b= [0.02831661]
+ Epoch: 0400 cost= 0.010363724 W1= [0.26538983] W2= [-0.64445597] W3= [0.68088645] b= [0.05369039]
+Epoch: 0450 cost= 0.009745224 W1= [0.25028253] W2= [-0.66609126] W3= [0.6597195] b= [0.07347472]
+Epoch: 0500 cost= 0.009364790 W1= [0.23869652] W2= [-0.6830062] W3= [0.64283645] b= [0.08888808]
+Optimization Finished!
+Training cost= 0.00936479 W1= [0.23869652] W2= [-0.6830062] W3= [0.64283645] b= [0.08888808] 
+
+Testing... (Mean square loss Comparison)
+Testing cost= 0.0115033
+Absolute mean square loss difference: 0.0021385094
+
+
+start testing: TEMP
+2020-03-13 17:35:45.440417: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
+2020-03-13 17:35:45.510026: I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:898] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+2020-03-13 17:35:45.510328: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1344] Found device 0 with properties: 
+name: GeForce GTX 1080 major: 6 minor: 1 memoryClockRate(GHz): 1.7335
+pciBusID: 0000:01:00.0
+totalMemory: 7.93GiB freeMemory: 7.78GiB
+2020-03-13 17:35:45.510354: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2020-03-13 17:35:45.693182: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-13 17:35:45.693221: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2020-03-13 17:35:45.693231: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2020-03-13 17:35:45.693348: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7517 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch: 0050 cost= 0.022826441 W1= [0.5768851] W2= [0.72972184] W3= [-0.7021287] b= [-0.25233054]
+Epoch: 0100 cost= 0.014451925 W1= [0.48327467] W2= [0.6197957] W3= [-0.7978032] b= [-0.14657454]
+Epoch: 0150 cost= 0.011285502 W1= [0.42302817] W2= [0.5526538] W3= [-0.8535788] b= [-0.08063141]
+Epoch: 0200 cost= 0.010081578 W1= [0.3831462] W2= [0.51202047] W3= [-0.88511926] b= [-0.03941015]
+Epoch: 0250 cost= 0.009614927 W1= [0.3558436] W2= [0.4874479] W3= [-0.90188384] b= [-0.01332241]
+Epoch: 0300 cost= 0.009426810 W1= [0.33629638] W2= [0.47281379] W3= [-0.90952796] b= [0.00344341]
+Epoch: 0350 cost= 0.009343441 W1= [0.3215369] W2= [0.4641893] W3= [-0.9115087] b= [0.01446733]
+Epoch: 0400 cost= 0.009299634 W1= [0.30972764] W2= [0.45932359] W3= [-0.9101501] b= [0.02197891]
+Epoch: 0450 cost= 0.009271068 W1= [0.2998374] W2= [0.45669007] W3= [-0.9067358] b= [0.02730294]
+Epoch: 0500 cost= 0.009248411 W1= [0.29112375] W2= [0.45547393] W3= [-0.90204453] b= [0.03126308]
+Optimization Finished!
+Training cost= 0.009248411 W1= [0.29112375] W2= [0.45547393] W3= [-0.90204453] b= [0.03126308] 
+
+Testing... (Mean square loss Comparison)
+Testing cost= 0.0115421405
+Absolute mean square loss difference: 0.0022937292
+
+start testing: DEWP
+2020-03-13 18:12:11.915820: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2020-03-13 18:12:11.916170: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-13 18:12:11.916181: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2020-03-13 18:12:11.916189: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2020-03-13 18:12:11.916241: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7517 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch: 0050 cost= 0.008818130 W1= [0.01318213] W2= [-0.1297019] W3= [0.12016977] b= [0.14793932]
+Epoch: 0100 cost= 0.008702030 W1= [0.02736339] W2= [-0.11884857] W3= [0.12590139] b= [0.1335485]
+Epoch: 0150 cost= 0.008655160 W1= [0.03818723] W2= [-0.11329769] W3= [0.12624738] b= [0.12472067]
+Epoch: 0200 cost= 0.008628793 W1= [0.04721343] W2= [-0.11055454] W3= [0.12375183] b= [0.11897358]
+Epoch: 0250 cost= 0.008608794 W1= [0.05523056] W2= [-0.10931685] W3= [0.11977382] b= [0.11490394]
+Epoch: 0300 cost= 0.008591027 W1= [0.06265928] W2= [-0.10887877] W3= [0.11504395] b= [0.11174124]
+Epoch: 0350 cost= 0.008574270 W1= [0.06972265] W2= [-0.10886668] W3= [0.10993429] b= [0.10908568]
+Epoch: 0400 cost= 0.008558131 W1= [0.07656048] W2= [-0.10909127] W3= [0.10466567] b= [0.10671137]
+Epoch: 0450 cost= 0.008542533 W1= [0.08321418] W2= [-0.10944086] W3= [0.09935305] b= [0.10451192]
+Epoch: 0500 cost= 0.008527396 W1= [0.08974236] W2= [-0.10985821] W3= [0.09406009] b= [0.10240922]
+Optimization Finished!
+Training cost= 0.008527396 W1= [0.08974236] W2= [-0.10985821] W3= [0.09406009] b= [0.10240922] 
+
+
+Testing... (Mean square loss Comparison)
+Testing cost= 0.009982591
+Absolute mean square loss difference: 0.0014551943
+
+start testing: PRES
+2020-03-13 18:49:02.337594: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2020-03-13 18:49:02.338096: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-13 18:49:02.338107: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2020-03-13 18:49:02.338116: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2020-03-13 18:49:02.338177: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7517 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch: 0050 cost= 0.012392966 W1= [-0.19613421] W2= [0.35419685] W3= [0.1981558] b= [0.07079569]
+Epoch: 0100 cost= 0.010343960 W1= [-0.22828934] W2= [0.29946578] W3= [0.14056328] b= [0.12236991]
+Epoch: 0150 cost= 0.009528280 W1= [-0.246334] W2= [0.2648962] W3= [0.10256889] b= [0.15413597]
+Epoch: 0200 cost= 0.009198764 W1= [-0.25556666] W2= [0.24294351] W3= [0.07688823] b= [0.17343578]
+Epoch: 0250 cost= 0.009061148 W1= [-0.25931832] W2= [0.22891746] W3= [0.05896204] b= [0.18494849]
+Epoch: 0300 cost= 0.008999574 W1= [-0.25970358] W2= [0.21987589] W3= [0.04592828] b= [0.19158223]
+Epoch: 0350 cost= 0.008968324 W1= [-0.2579657] W2= [0.21396515] W3= [0.03598607] b= [0.19515851]
+Epoch: 0400 cost= 0.008949264 W1= [-0.25488827] W2= [0.20999752] W3= [0.0280031] b= [0.19681984]
+Epoch: 0450 cost= 0.008935266 W1= [-0.25102618] W2= [0.20728573] W3= [0.02126644] b= [0.19727856]
+Epoch: 0500 cost= 0.008923505 W1= [-0.24672656] W2= [0.20534746] W3= [0.01533935] b= [0.19701849]
+Optimization Finished!
+Training cost= 0.0089235045 W1= [-0.24672656] W2= [0.20534746] W3= [0.01533935] b= [0.19701849] 
+
+Testing... (Mean square loss Comparison)
+Testing cost= 0.011193161
+Absolute mean square loss difference: 0.0022696564
+
+start testing: RAIN
+2020-03-13 19:26:02.436400: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2020-03-13 19:26:02.436895: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-13 19:26:02.436906: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2020-03-13 19:26:02.436914: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2020-03-13 19:26:02.436977: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7517 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch: 0050 cost= 0.008982532 W1= [0.5809072] W2= [-1.5968162] W3= [-0.48211482] b= [0.12800321]
+Epoch: 0100 cost= 0.008950596 W1= [0.58308166] W2= [-1.5949425] W3= [-0.48054773] b= [0.1360358]
+Epoch: 0150 cost= 0.008948522 W1= [0.58523625] W2= [-1.5930824] W3= [-0.47899216] b= [0.13608381]
+Epoch: 0200 cost= 0.008946451 W1= [0.5873781] W2= [-1.5912328] W3= [-0.4774458] b= [0.13607706]
+Epoch: 0250 cost= 0.008944400 W1= [0.5895113] W2= [-1.589391] W3= [-0.47590494] b= [0.1360695]
+Epoch: 0300 cost= 0.008942368 W1= [0.5916276] W2= [-1.5875514] W3= [-0.47437045] b= [0.13606288]
+Epoch: 0350 cost= 0.008940357 W1= [0.5937317] W2= [-1.5857203] W3= [-0.47284165] b= [0.13605691]
+Epoch: 0400 cost= 0.008938364 W1= [0.5958259] W2= [-1.5838917] W3= [-0.47131893] b= [0.1360526]
+Epoch: 0450 cost= 0.008936391 W1= [0.5979075] W2= [-1.5820738] W3= [-0.46980286] b= [0.1360482]
+Epoch: 0500 cost= 0.008934435 W1= [0.59998006] W2= [-1.5802584] W3= [-0.46829218] b= [0.13604243]
+Optimization Finished!
+Training cost= 0.0089344345 W1= [0.59998006] W2= [-1.5802584] W3= [-0.46829218] b= [0.13604243] 
+
+Testing... (Mean square loss Comparison)
+Testing cost= 0.012071943
+Absolute mean square loss difference: 0.0031375084
+start testing: wd
+2020-03-13 20:02:54.705257: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2020-03-13 20:02:54.705749: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-13 20:02:54.705800: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2020-03-13 20:02:54.705809: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2020-03-13 20:02:54.705895: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7517 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch: 0050 cost= 0.013733192 W1= [-0.3359791] W2= [0.05080758] W3= [-0.08356203] b= [0.2910817]
+Epoch: 0100 cost= 0.009906454 W1= [-0.2648212] W2= [0.12360493] W3= [-0.02246353] b= [0.22629553]
+Epoch: 0150 cost= 0.009032869 W1= [-0.22905563] W2= [0.15784103] W3= [0.00430021] b= [0.19455531]
+Epoch: 0200 cost= 0.008829243 W1= [-0.20999986] W2= [0.17390792] W3= [0.01486613] b= [0.17904086]
+Epoch: 0250 cost= 0.008777956 W1= [-0.19897999] W2= [0.18135087] W3= [0.01776461] b= [0.17125879]
+Epoch: 0300 cost= 0.008761454 W1= [-0.19178659] W2= [0.18468441] W3= [0.01706072] b= [0.1671614]
+Epoch: 0350 cost= 0.008753154 W1= [-0.18649323] W2= [0.1860387] W3= [0.0146859] b= [0.16485313]
+Epoch: 0400 cost= 0.008746937 W1= [-0.1821616] W2= [0.18650524] W3= [0.01156488] b= [0.1633879]
+Epoch: 0450 cost= 0.008741436 W1= [-0.17836064] W2= [0.18657334] W3= [0.00813468] b= [0.16234587]
+Epoch: 0500 cost= 0.008736297 W1= [-0.17484543] W2= [0.1864443] W3= [0.00459957] b= [0.16151726]
+Optimization Finished!
+Training cost= 0.0087362975 W1= [-0.17484543] W2= [0.1864443] W3= [0.00459957] b= [0.16151726] 
+Testing... (Mean square loss Comparison)
+Testing cost= 0.01482736
+Absolute mean square loss difference: 0.00609107
+
+start testing: WSPM
+2020-03-13 20:40:05.735767: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1423] Adding visible gpu devices: 0
+2020-03-13 20:40:05.736258: I tensorflow/core/common_runtime/gpu/gpu_device.cc:911] Device interconnect StreamExecutor with strength 1 edge matrix:
+2020-03-13 20:40:05.736269: I tensorflow/core/common_runtime/gpu/gpu_device.cc:917]      0 
+2020-03-13 20:40:05.736277: I tensorflow/core/common_runtime/gpu/gpu_device.cc:930] 0:   N 
+2020-03-13 20:40:05.736337: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1041] Created TensorFlow device (/job:localhost/replica:0/task:0/device:GPU:0 with 7517 MB memory) -> physical GPU (device: 0, name: GeForce GTX 1080, pci bus id: 0000:01:00.0, compute capability: 6.1)
+Epoch: 0050 cost= 0.010790898 W1= [-1.1891667] W2= [1.588494] W3= [-1.3648127] b= [0.29683736]
+Epoch: 0100 cost= 0.010200837 W1= [-1.1447451] W2= [1.6162478] W3= [-1.350539] b= [0.29006004]
+Epoch: 0150 cost= 0.009759151 W1= [-1.1066657] W2= [1.640412] W3= [-1.3383341] b= [0.2812932]
+Epoch: 0200 cost= 0.009427651 W1= [-1.0736973] W2= [1.6615735] W3= [-1.3279084] b= [0.27369443]
+Epoch: 0250 cost= 0.009178109 W1= [-1.0450623] W2= [1.6801947] W3= [-1.3189751] b= [0.2670811]
+Epoch: 0300 cost= 0.008991172 W1= [-1.0202209] W2= [1.6963713] W3= [-1.3113526] b= [0.2613335]
+Epoch: 0350 cost= 0.008850994 W1= [-0.99864954] W2= [1.7104896] W3= [-1.3048415] b= [0.25635818]
+Epoch: 0400 cost= 0.008744500 W1= [-0.97947073] W2= [1.7226268] W3= [-1.2991501] b= [0.25196293]
+Epoch: 0450 cost= 0.008665288 W1= [-0.9627805] W2= [1.7328348] W3= [-1.2941527] b= [0.24814972]
+Epoch: 0500 cost= 0.008606492 W1= [-0.9482316] W2= [1.7412295] W3= [-1.2897025] b= [0.24484612]
+Optimization Finished!
+Training cost= 0.008606492 W1= [-0.9482316] W2= [1.7412295] W3= [-1.2897025] b= [0.24484612] 
+
+Testing... (Mean square loss Comparison)
+Testing cost= 0.008888471
+Absolute mean square loss difference: 0.00028197933
