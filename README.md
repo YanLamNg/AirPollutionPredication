@@ -1,4 +1,4 @@
-# Artificial Intelligence_A2
+# Air Pollution Predication
 
 COMP 4190
 Artificial Intelligence
