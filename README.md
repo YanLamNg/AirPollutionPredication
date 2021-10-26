@@ -1,5 +1,12 @@
 # Air Pollution Predication
 
+Air pollution prediction is one of the popular problems of regression. This data set includes hourly air pollutants data from 12 nationally-controlled air-quality monitoring sites from the Beijing Municipal Environmental Monitoring Center. The meteorological data in each air-quality site are matched with the nearest weather station from the China Meteorological Administration. The time period is from March 1st, 2013 to February 28th, 2017. Missing data are denoted as NA.
+
+Based on the dataset, separate the data into training (2013-2016) and testing (2017) sets. This data consists of multiple attributes, Xi(e.g. TEMP, temperature) and air pollution index (PM2.5 concentration only) as output Y. You need to develop the prediction models based on:
+
+
+
+
 COMP 4190
 Artificial Intelligence
 Assignment 2
