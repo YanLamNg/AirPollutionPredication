@@ -5,12 +5,6 @@ Air pollution prediction is one of the popular problems of regression. This data
 Based on the dataset, separate the data into training (2013-2016) and testing (2017) sets. This data consists of multiple attributes, Xi(e.g. TEMP, temperature) and air pollution index (PM2.5 concentration only) as output Y. You need to develop the prediction models based on:
 
 
-
-
-COMP 4190
-Artificial Intelligence
-Assignment 2
-
 Authors:
 
 Xiaojian Xie 7821950
