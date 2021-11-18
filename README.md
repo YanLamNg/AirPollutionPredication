@@ -9,12 +9,12 @@ Result:
 
 The error of each implementation of simple regression and multiple regression.
 
-                    TEMP       DEMP      PRES      RAIN       WD        WSPM      Multiple
-Training error     0.0093      0.0085    0.0089    0.0089     0.0087    0.0086	  153.39
+                        TEMP       DEMP      PRES      RAIN       WD        WSPM      Multiple
+    Training error     0.0093      0.0085    0.0089    0.0089     0.0087    0.0086	  153.39
   
-Test error         0.0115      0.00998   0.0112    0.01207    0.01483   0.0089    29.127
+    Test error         0.0115      0.00998   0.0112    0.01207    0.01483   0.0089    29.127
 
-Error difference   0.0022      0.0015    0.0023    0.0031     0.00601   0.0003    124.26
+    Error difference   0.0022      0.0015    0.0023    0.0031     0.00601   0.0003    124.26
 
 
 
