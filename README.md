@@ -6,7 +6,9 @@ Based on the dataset, separate the data into training (2013-2016) and testing (2
 
 
 Result:
-the error of each implementation of simple regression and multiple regression.
+
+The error of each implementation of simple regression and multiple regression.
+
                     TEMP       DEMP      PRES      RAIN       WD        WSPM      Multiple
 Training error     0.0093      0.0085    0.0089    0.0089     0.0087    0.0086	  153.39
   
